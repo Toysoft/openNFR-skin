@@ -10532,7 +10532,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
     <widget source="session.VideoPicture" render="Pig" position="837,95" size="375,214" backgroundColor="transparent" zPosition="1" />
   </screen>
-  <screen name="QuickMenu" position="center,0" size="1280,720" backgroundColor="black" title="Ouick Launch Menu" flags="wfNoBorder">
+  <screen name="QuickMenu" position="center,0" size="1280,720" backgroundColor="black" title="Quick Launch Menu" flags="wfNoBorder">
     <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular; 26" halign="right" backgroundColor="background" transparent="1" foregroundColor="cyan1">
       <convert type="ClockToText">Default</convert>
     </widget>
@@ -10552,7 +10552,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_red" position="105,672" size="160,25" zPosition="1" font="Regular;22" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_green" position="419,672" size="160,25" zPosition="1" font="Regular;22" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_yellow" position="747,672" size="160,25" zPosition="1" font="Regular;22" halign="left" backgroundColor="black" transparent="1" />
-    <eLabel text="Ouick Launch Menu" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
+    <eLabel text="Quick Launch Menu" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
   </screen>
   <screen name="HistoryZapSelector" position="0,0" size="1280,720" title="Zap-History Browser" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
