@@ -12483,4 +12483,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap position="848,596" zPosition="2" size="350,44" pixmap="skin_default/icons/db.png" transparent="1" alphatest="blend" />
     <eLabel name="new eLabel" position="66,603" size="719,2" backgroundColor="cyan1" foregroundColor="cyan1" />
   </screen>
+  <screen name="RestorePlugins" position="center,center" size="600,300" title="RestorePlugins" flags="wfBorder">
+    <widget name="key_red" position="48,262" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_green" position="354,262" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="skin_default/buttons/red.png" position="10,260" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/green.png" position="310,260" size="30,30" alphatest="blend" />
+    <widget source="menu" render="Listbox" position="9,8" size="583,237" scrollbarMode="showNever" enableWrapAround="1" backgroundPixmap="skin_default/menu/sel_bg-fs8.png" selectionPixmap="skin_default/menu/sel_fg-fs8.png" transparent="1" zPosition="1">
+    </widget>
+  </screen>
 </skin>
