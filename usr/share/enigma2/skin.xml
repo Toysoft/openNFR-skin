@@ -3846,25 +3846,25 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="key_blue" render="Label" position="975,672" size="260,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
   </screen>
-  <screen name="VirtualKeyBoard" position="0,0" size="1280,720" zPosition="99" title="Virtual KeyBoard" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
-    <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
-    <widget source="session.VideoPicture" render="Pig" position="837,95" size="375,214" zPosition="-8" />
-    <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
-    <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
-      <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
-    </widget>
-    <eLabel text="Virtual KeyBoard" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
-    <widget name="header" position="70,130" size="700,40" font="Regular;28" halign="center" transparent="1" noWrap="1" />
-    <eLabel position="70,210" size="700,60" zPosition="1" backgroundColor="white" />
-    <eLabel position="72,212" size="696,56" zPosition="2" backgroundColor="background" />
-    <widget name="text" position="80,213" size="680,50" zPosition="3" font="Regular;40" noWrap="1" halign="right" />
-    <widget name="list" position="72,330" size="696,250" selectionDisabled="1" transparent="1" />
-    <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
-  </screen>
+ <screen name="VirtualKeyBoard" position="0,0" size="1280,720" zPosition="99" title="Virtual KeyBoard" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back3.png" />
+  <eLabel position="837,426" zPosition="3" size="375,214" backgroundColor="unff000000" />
+  <widget source="session.VideoPicture" render="Pig" position="837,426" size="375,214" zPosition="-8" />
+  <ePixmap position="443,661" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
+  <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+    <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
+  </widget>
+  <eLabel text="Virtual KeyBoard" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
+  <widget name="header" position="70,130" size="1100,40" font="Regular;28" halign="center" transparent="1" noWrap="1" />
+  <eLabel position="70,210" size="1100,60" zPosition="1" backgroundColor="white" />
+  <eLabel position="72,212" size="1096,56" zPosition="2" backgroundColor="background" />
+  <widget name="text" position="80,213" size="1080,50" zPosition="3" font="Regular; 26" noWrap="1" halign="center" />
+  <widget name="list" position="180,350" size="535,218" selectionDisabled="1" transparent="1" />
+  <ePixmap name="new ePixmap" position="823,411" size="406,247" pixmap="skin_default/menu/tv.png" />
+</screen>
   <!-- Plugins -->
   <!-- AutoTimer -->
   <screen name="AutoTimerSettings" position="0,0" size="1280,720" title="AutoTimer Settings" flags="wfNoBorder">
