@@ -3862,7 +3862,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <eLabel position="70,210" size="1100,60" zPosition="1" backgroundColor="white" />
   <eLabel position="72,212" size="1096,56" zPosition="2" backgroundColor="background" />
   <widget name="text" position="80,213" size="1080,50" zPosition="3" font="Regular; 26" noWrap="1" halign="center" />
-  <widget name="list" position="180,350" size="535,218" selectionDisabled="1" transparent="1" />
+  <widget name="list" position="180,350" size="540,225" selectionDisabled="1" transparent="1" />
   <ePixmap name="new ePixmap" position="823,411" size="406,247" pixmap="skin_default/menu/tv.png" />
 </screen>
   <!-- Plugins -->
@@ -5800,24 +5800,23 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="key_green" render="Label" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
   </screen>
-  <screen name="IPKGSource" position="0,0" size="1280,720" title="IPKG source" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
-    <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
-    <widget source="session.VideoPicture" render="Pig" position="837,95" size="375,214" zPosition="-8" />
-    <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
-    <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
-      <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
-    </widget>
-    <eLabel text="IPKGSource" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
-    <widget name="text" position="65,98" size="718,25" zPosition="3" font="Regular;22" foregroundColor="white" backgroundColor="background" transparent="1" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position=" 70,670" size="30,30" alphatest="blend" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="360,670" size="30,30" alphatest="blend" />
-    <widget source="key_red" render="Label" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget source="key_green" render="Label" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-  </screen>
+<screen name="IPKGSource" position="0,0" size="1280,720" title="IPKG source" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
+  <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
+  <widget source="session.VideoPicture" render="Pig" position="837,95" size="375,214" zPosition="-8" />
+  <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
+  <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+    <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
+  </widget>
+  <eLabel text="IPKGSource" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
+  <widget name="text" position="65,98" size="718,25" zPosition="3" font="Regular;22" foregroundColor="un3b98c9" backgroundColor="un3b98c9" transparent="1" />
+  <ePixmap pixmap="skin_default/buttons/red.png" position=" 70,670" size="30,30" alphatest="blend" />
+  <widget source="key_red" render="Label" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+  <ePixmap position="840,670" size="30,30" zPosition="10" pixmap="skin_default/buttons/key_ok.png" transparent="1" alphatest="blend" />
+</screen>
   <screen name="PacketManager" position="0,0" size="1280,720" title="PacketManager" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
     <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
