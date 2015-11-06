@@ -324,7 +324,7 @@
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- TunerInfo end -->
-    <widget source="session.CurrentService" render="Picon" position="55,607" zPosition="4" size="100,60" transparent="1" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBig" position="28,599" zPosition="4" size="167,80" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="240,602" size="75,28" font="Arial; 24" halign="right" backgroundColor="background" transparent="1" foregroundColor="cyan1" zPosition="1">
@@ -371,6 +371,7 @@
     </widget>
     <!-- wifi -->
     <!-- wifi end-->
+    <ePixmap name="new ePixmap" position="12,594" size="200,90" pixmap="skin_default/menu/pground.png" />
   </screen>
   <!-- SecondInfoBar -->
   <screen name="SecondInfoBar" position="35,10" size="1280,720" title="Second Infobar" backgroundColor="transparent" flags="wfNoBorder">
