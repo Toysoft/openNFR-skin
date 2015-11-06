@@ -149,7 +149,7 @@
     <color name="WindowTitleForeground" color="white" />
     <color name="WindowTitleBackground" color="black" />
   </windowstyle>
-  <screen name="InfoBar" position="35,10" size="1280,720" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+  <screen name="InfoBar" position="34,11" size="1280,720" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,515" zPosition="-1" size="1195,175" pixmap="skin_default/infobar.png" borderWidth="0" borderColor="transparent" />
     <ePixmap pixmap="skin_default/date_bg.png" position="11,559" size="200,34" zPosition="1" alphatest="blend" />
     <ePixmap pixmap="skin_default/clock_bg.png" position="983,559" size="200,34" zPosition="1" alphatest="blend" />
@@ -362,19 +362,12 @@
       <convert type="EventTime">Duration</convert>
       <convert type="ClockToText">InMinutes</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="170,602" size="55,20" font="Regular; 16" halign="center" backgroundColor="black" transparent="1">
-      <convert type="ServiceInfo">VideoWidth</convert>
-    </widget>
-    <eLabel text="x" position="192,626" size="10,20" font="Regular; 16" halign="center" backgroundColor="black" transparent="1" />
-    <widget source="session.CurrentService" render="Label" position="170,652" size="55,20" font="Regular; 16" halign="center" backgroundColor="black" transparent="1">
-      <convert type="ServiceInfo">VideoHeight</convert>
-    </widget>
     <!-- wifi -->
     <!-- wifi end-->
     <ePixmap name="new ePixmap" position="12,594" size="200,90" pixmap="skin_default/menu/pground.png" />
   </screen>
   <!-- SecondInfoBar -->
-  <screen name="SecondInfoBar" position="35,10" size="1280,720" title="Second Infobar" backgroundColor="transparent" flags="wfNoBorder">
+  <screen name="SecondInfoBar" position="34,11" size="1280,720" title="Second Infobar" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,515" zPosition="-1" size="1195,175" pixmap="skin_default/infobar.png" borderWidth="0" borderColor="transparent" />
     <ePixmap pixmap="skin_default/date_bg.png" position="11,559" size="200,34" zPosition="1" alphatest="blend" />
     <ePixmap pixmap="skin_default/clock_bg.png" position="983,559" size="200,34" zPosition="1" alphatest="blend" />
@@ -587,13 +580,6 @@
       <convert type="EventTime">Duration</convert>
       <convert type="ClockToText">InMinutes</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="170,602" size="55,20" font="Regular; 16" halign="center" backgroundColor="black" transparent="1">
-      <convert type="ServiceInfo">VideoWidth</convert>
-    </widget>
-    <eLabel text="x" position="192,626" size="10,20" font="Regular; 16" halign="center" backgroundColor="black" transparent="1" />
-    <widget source="session.CurrentService" render="Label" position="170,652" size="55,20" font="Regular; 16" halign="center" backgroundColor="black" transparent="1">
-      <convert type="ServiceInfo">VideoHeight</convert>
-    </widget>
     <widget source="session.CurrentService" render="Label" position="27,25" size="500,35" font="Regular; 28" valign="center" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
       <convert type="ServiceName">Provider</convert>
     </widget>
@@ -640,6 +626,10 @@
       <convert type="ConverterRotator">3</convert>
     </widget>
     <ePixmap position="8,10" zPosition="-1" size="1181,500" pixmap="skin_default/back.png" />
+    <widget source="session.CurrentService" render="PiconBig" position="28,599" zPosition="4" size="167,80" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <ePixmap name="new ePixmap" position="12,594" size="200,90" pixmap="skin_default/menu/pground.png" />
   </screen>
   <!-- Ecm Info -->
   <screen name="Volume" position="200,40" size="750,50" title="Volume" flags="wfNoBorder" backgroundColor="transparent">
