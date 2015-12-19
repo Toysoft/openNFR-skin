@@ -3262,6 +3262,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="text" position="80,213" size="1080,50" zPosition="3" font="Regular; 26" noWrap="1" halign="center" />
     <widget name="list" position="71,350" size="700,225" selectionDisabled="1" transparent="1" />
     <ePixmap name="new ePixmap" position="823,411" size="406,247" pixmap="skin_default/menu/tv.png" />
+    <ePixmap pixmap="skin_default/buttons/yellow.png" position="70,300" size="30,30" alphatest="blend" />
+    <eLabel text="Change Language" position="120,300" size="250,30" font="Regular; 24" backgroundColor="background" transparent="1" />
   </screen>
   <!-- Plugins -->
   <!-- AutoTimer -->
