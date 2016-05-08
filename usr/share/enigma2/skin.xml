@@ -82,6 +82,7 @@
     <color name="unff0000" value="#00ff0000" />
     <color name="unff000000" value="#ff000000" />
     <color name="unff6600" value="#00ff6600" />
+    <color name="unffe500" value="#00ffe500" />
     <color name="white" value="#00ffffff" />
     <color name="yellow" value="#00e5b243" />
   </colors>
@@ -2729,33 +2730,33 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
     <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
   </screen>
-<screen name="ServiceInfo" position="0,0" size="1280,720" title="Serviceinfo" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
-  <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
-  <widget source="session.VideoPicture" render="Pig" position="837,95" zPosition="-8" size="375,214" />
-  <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
-  <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
-    <convert type="ClockToText">Default</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
-    <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
-  </widget>
-  <eLabel text="Serviceinfo" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
-  <widget name="infolist" position="65,95" size="725,545" itemHeight="30" selectionDisabled="1" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
-  <ePixmap pixmap="skin_default/buttons/red.png" position=" 70,670" size="30,30" alphatest="blend" />
-  <ePixmap pixmap="skin_default/buttons/green.png" position="360,670" size="30,30" alphatest="blend" />
-  <ePixmap pixmap="skin_default/buttons/yellow.png" position="650,670" size="30,30" alphatest="blend" />
-  <ePixmap pixmap="skin_default/buttons/blue.png" position="940,670" size="30,30" alphatest="blend" />
-  <widget name="red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-  <widget name="green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-  <widget name="yellow" position="685,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-  <widget name="blue" position="975,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-  <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
-  <ePixmap position="830,335" size="30,30" zPosition="10" pixmap="skin_default/buttons/key_left.png" transparent="1" alphatest="blend" />
-  <eLabel text="page up" position="870,337" size=" 140,25" font="Regular;21" halign="left" backgroundColor="backtop" transparent="1" />
-  <ePixmap position="830,375" size="30,30" zPosition="10" pixmap="skin_default/buttons/key_right.png" transparent="1" alphatest="blend" />
-  <eLabel text="page down" position="870,377" size=" 140,25" font="Regular;21" halign="left" backgroundColor="backtop" transparent="1" />
-</screen>
+  <screen name="ServiceInfo" position="0,0" size="1280,720" title="Serviceinfo" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back2b.png" />
+    <eLabel position="837,95" zPosition="3" size="375,214" backgroundColor="unff000000" />
+    <widget source="session.VideoPicture" render="Pig" position="837,95" zPosition="-8" size="375,214" />
+    <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+      <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
+    </widget>
+    <eLabel text="Serviceinfo" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
+    <widget name="infolist" position="65,95" size="725,545" itemHeight="30" selectionDisabled="1" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
+    <ePixmap pixmap="skin_default/buttons/red.png" position=" 70,670" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/green.png" position="360,670" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/yellow.png" position="650,670" size="30,30" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/blue.png" position="940,670" size="30,30" alphatest="blend" />
+    <widget name="red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="yellow" position="685,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="blue" position="975,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
+    <ePixmap position="830,335" size="30,30" zPosition="10" pixmap="skin_default/buttons/key_left.png" transparent="1" alphatest="blend" />
+    <eLabel text="page up" position="870,337" size=" 140,25" font="Regular;21" halign="left" backgroundColor="backtop" transparent="1" />
+    <ePixmap position="830,375" size="30,30" zPosition="10" pixmap="skin_default/buttons/key_right.png" transparent="1" alphatest="blend" />
+    <eLabel text="page down" position="870,377" size=" 140,25" font="Regular;21" halign="left" backgroundColor="backtop" transparent="1" />
+  </screen>
   <screen name="Setup" position="0,0" size="1280,720" title="Setup" flags="wfNoBorder">
     <widget name="label3" position="68,394" size="715,40" font="Regular;19" halign="center" foregroundColor="yellow" backgroundColor="yellow" transparent="1" zPosition="5" />
     <widget name="label2" position="650,674" size="150,20" font="Regular;19" halign="left" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="5" />
@@ -9054,7 +9055,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <eLabel text="NfrHD_About" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
-   <widget name="label1" position="65,98" size="715,30" zPosition="1" halign="left" font="Regular;20" backgroundColor="white" transparent="1" />
+    <widget name="label1" position="65,98" size="715,30" zPosition="1" halign="left" font="Regular;20" backgroundColor="white" transparent="1" />
     <widget name="label2" position="65,159" size="715,30" zPosition="1" halign="left" font="Regular;20" backgroundColor="white" transparent="1" />
   </screen>
   <screen name="IPTV" position="center,center" size="1280,720" title="M3U Converter" flags="wfNoBorder">
@@ -9080,5 +9081,51 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_yellow" position="685,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+  </screen>
+  <screen name="LCDSkinSelector" position="0,0" size="1280,720" title="Lcd Skin Selector" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back1.png" />
+    <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+      <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="845,361" size="360,34" zPosition="2" font="Regular; 24" halign="center" noWrap="1" transparent="1" foregroundColor="cyan1" backgroundColor="background">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <ePixmap position="826,353" size="400,48" zPosition="0" pixmap="skin_default/menu/service_bg.png" transparent="1" alphatest="blend" />
+    <ePixmap position="835,332" size="380,9" zPosition="2" pixmap="skin_default/menu/tlb.png" transparent="1" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="skin_default/menu/tl.png" position="838,335" size="373,3" zPosition="3" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <eLabel text="Choose your Skin" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
+    <widget source="introduction" render="Label" position="65,607" size="710,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" foregroundColor="cyan1" />
+    <ePixmap position="950,430" size="150,150" pixmap="skin_default/menu/skin.png" alphatest="blend" transparent="1" />
+    <widget name="SkinList" position="65,98" size="715,500" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="Preview" position="910,115" size="220,175" zPosition="2" backgroundColor="background" transparent="1" alphatest="on" />
+  </screen>
+  <screen name="LCDClockSelector" position="0,0" size="1280,720" title="Lcd Clock Selector" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="skin_default/menu/back1.png" />
+    <ePixmap position="848,596" size="350,44" pixmap="skin_default/menu/db.png" transparent="1" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1125,12" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="905,37" size="320,25" font="Regular;20" halign="right" backgroundColor="backtop" transparent="1" foregroundColor="cyan1">
+      <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="845,361" size="360,34" zPosition="2" font="Regular; 24" halign="center" noWrap="1" transparent="1" foregroundColor="cyan1" backgroundColor="background">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <ePixmap position="826,353" size="400,48" zPosition="0" pixmap="skin_default/menu/service_bg.png" transparent="1" alphatest="blend" />
+    <ePixmap position="835,332" size="380,9" zPosition="2" pixmap="skin_default/menu/tlb.png" transparent="1" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="skin_default/menu/tl.png" position="838,335" size="373,3" zPosition="3" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <eLabel text="Choose your Skin" position="65,17" size="720,43" font="Regular;35" backgroundColor="backtop" transparent="1" foregroundColor="cyan1" />
+    <widget source="introduction" render="Label" position="65,607" size="710,30" font="Regular;24" halign="center" backgroundColor="background" transparent="1" foregroundColor="cyan1" />
+    <ePixmap position="950,430" size="150,150" pixmap="skin_default/menu/skin.png" alphatest="blend" transparent="1" />
+    <widget name="ClockList" position="65,98" size="715,500" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="Preview" position="910,115" size="220,175" zPosition="2" backgroundColor="background" transparent="1" alphatest="on" />
   </screen>
 </skin>
