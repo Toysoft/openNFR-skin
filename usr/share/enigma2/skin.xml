@@ -3263,6 +3263,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap name="new ePixmap" position="823,411" size="406,247" pixmap="skin_default/menu/tv.png" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="70,300" size="30,30" alphatest="blend" />
     <eLabel text="Change Language" position="120,300" size="250,30" font="Regular; 24" backgroundColor="background" transparent="1" />
+	<widget source="country" render="Label" position="1542,824" size="145,50" font="Regular; 28" valign="center" halign="center" />
   </screen>
   <!-- Plugins -->
   <!-- AutoTimer -->
@@ -8177,9 +8178,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="skin_default/buttons/red.png" position=" 70,670" size="30,30" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="360,670" size="30,30" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="652,671" size="30,30" alphatest="blend" />
-    <widget source="key_red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget source="key_green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget source="key_yellow" position="686,673" size="250,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_yellow" position="686,673" size="250,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
     <widget name="config" position="66,98" size="710,544" zPosition="1" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
@@ -8198,11 +8199,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="skin_default/buttons/red.png" position=" 70,670" size="30,30" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="360,670" size="30,30" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="652,671" size="30,30" alphatest="blend" />
-    <widget source="key_red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget source="key_green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget source="key_yellow" position="686,673" size="250,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_red" position="105,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_green" position="395,672" size="240,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="key_yellow" position="686,673" size="250,24" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <ePixmap position="962,431" size="128,128" zPosition="2" pixmap="skin_default/icons/setup.png" transparent="1" alphatest="blend" />
-    <widget name="list" position="66,98" itemHeight="35" size="710,472" zPosition="1" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="list" position="66,98" itemHeight="35" size="710,490" zPosition="1" scrollbarMode="showOnDemand" transparent="1" />
     <widget source="introduction" render="Label" position="66,588" size="712,50" zPosition="10" font="Regular;28" halign="center" valign="center" transparent="1" />
     <ePixmap pixmap="skin_default/buttons/key_blue.png" position="952,671" size="30,30" alphatest="blend" />
     <widget source="key_blue" position="990,673" size="240,25" zPosition="1" font="Regular;22" halign="left" backgroundColor="black" transparent="1" />
