@@ -110,11 +110,11 @@ class MaggyPiconEmu(Renderer, Poll):
                     if pngname != '':
                         self.nameCache[text] = pngname
             if pngname == '':
-                pngname = self.nameCache.get('default', '')
+                pngname = self.nameCache.get('no_cam', '')
                 if pngname == '':
-                    pngname = self.findEmu('picon_default')
+                    pngname = self.findEmu('picon_no_cam')
                     if pngname == '':
-                        tmp = resolveFilename(SCOPE_CURRENT_SKIN, 'picon_default.png')
+                        tmp = resolveFilename(SCOPE_CURRENT_SKIN, 'picon_no_cam.png')
                         if fileExists(tmp):
                             pngname = tmp
                         else:
