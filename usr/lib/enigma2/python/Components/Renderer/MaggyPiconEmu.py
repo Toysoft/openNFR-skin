@@ -63,11 +63,6 @@ class MaggyPiconEmu(Renderer, Poll):
                     line = f.readline()
                     text = line.strip()
                     f.close()
-                elif fileExists('/etc/init.d/softcam'):
-                    f = open('/etc/init.d/softcam', 'r')
-                    line = f.readline()
-                    text = line.strip()
-                    f.close()
 		elif config.NFRSoftcam.actcam.value:
 			if config.NFRSoftcam.actcam.value != "none":
 				camdlist = config.NFRSoftcam.actcam.value.split()
